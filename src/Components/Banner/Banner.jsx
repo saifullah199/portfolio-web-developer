@@ -2,7 +2,7 @@
 
 const Banner = () => {
     return (
-        <div className="flex bg-[#F9EBEA] p-8 ">
+        <div className="lg:flex bg-[#F9EBEA] p-8 ">
             <div className="flex-1 space-y-6   ">
                 <p className="text-2xl font-semibold">Hi, I am</p>
                 <h2 className="text-5xl font-bold">Md Khalid <br /> Saifullah</h2>
@@ -14,8 +14,8 @@ const Banner = () => {
                     <a href="" target="_blank" rel="noopener noreferrer" className=" font-semibold " >Resume </a>
                 </button>
             </div>
-            <div className="flex-1 text-end p-5 ">
-                <img src="https://i.ibb.co/gyZMq41/developer-khalid.jpg" className="h-[400px] w-[400px] rounded-full  " alt="" />
+            <div className="flex-1 text-center p-5 ">
+                <img src="https://i.ibb.co/gyZMq41/developer-khalid.jpg" className="h-[150px] lg:h-[400px] w-[150px] lg:w-[400px] rounded-full  " alt="" />
             </div>
  
         </div>

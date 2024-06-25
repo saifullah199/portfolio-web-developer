@@ -8,8 +8,8 @@ const ContactMe = () => {
         <div className="mt-10 bg-[#F9EBEA]">
            <div className="p-10">
             <h2 className="text-4xl font-bold text-center my-10">Contact Me</h2>
-            <div className='flex justify-evenly'>
-                <div className='grid grid-cols-2 text-center font-semibold'>
+            <div className=' lg:flex justify-evenly'>
+                <div className='grid lg:grid-cols-2 text-center font-semibold'>
                 <p> Whatsapp: <br /> 01401613913</p>
                 <p>Email: <br /> mdkhalidsaifullah199@gmail.com</p>
                 </div>
